@@ -87,5 +87,4 @@ def upload_file():
 
     return render_template('index.html', table=table, prediction=prediction)
 
-if __name__ == '__main__':
-    app.run(debug=True)
+
